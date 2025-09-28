@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>运动会新闻 - 主页</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1 class="logo">运动会新闻</h1>
+            <nav class="nav">
+                <a href="index.html" class="nav-link active">主页</a>
+                <a href="news.html" class="nav-link">新闻</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="tile-container">
+            <!-- 大型头条瓷砖 -->
+            <div class="tile tile-large tile-primary" onclick="location.href='news-detail.html'">
+                <div class="tile-content">
+                    <h2>2025年长沙外国语学校运动会开幕</h2>
+                    <img src="DJI_0120.JPG" alt="田径锦标赛开幕式" width="400" style="height: auto;">
+                    <p>精彩赛事即将开始，学校运动员齐聚一堂</p>
+                    <div class="tile-badge">头条</div>
+                </div>
+            </div>
+
+            <!-- 中型瓷砖 -->
+
+            <div class="tile tile-medium tile-success" onclick="location.href='jchg.html'">
+                <div class="tile-content">
+                    
+                    
+                    <h3>班级照片 - 精彩回顾</h3>
+                </div>
+            </div>
+
+            <!-- 小型瓷砖 -->
+
+            <div class="tile tile-small tile-info" onclick="location.href='scap.html'">
+                <div class="tile-content">
+                    <h4>赛程安排</h4>
+                </div>
+            </div>
+
+            <div class="tile tile-small tile-danger" onclick="location.href='phb.html'">
+                <div class="tile-content">
+                    <h4>排行榜</h4>
+                </div>
+            </div>
+
+            <div class="tile tile-small tile-secondary" onclick="location.href='jyg.html'">
+                <div class="tile-content">
+                    <h4>加油稿</h4>
+                </div>
+            </div>
+
+            <!-- 宽型瓷砖 -->
+            <div class="tile tile-medium tile-success" onclick="location.href='q.html'">
+                <div class="tile-content">
+                    <h3>采访</h3>
+                    <p>独家专访 - 16班同学感想</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
